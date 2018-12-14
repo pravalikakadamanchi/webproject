@@ -1,0 +1,45 @@
+
+
+
+        <app-header></app-header>
+        
+        <div class="buttons"  >
+    
+            
+        <div class="col-md-4" >
+            
+              
+        <button class="pageButton" [routerLink]="['Home']">Home</button>
+        
+        <br>
+        <hr>
+        
+        <button class="pageButton"  [routerLink]="['Services']">Services</button>
+        <br>
+        <hr>
+        
+        <button class="pageButton" [routerLink]="['Blog']">Blog</button> 
+        <br>
+        <hr>
+        
+        <button class="pageButton" [routerLink]="['Myteammeet']">Our Team</button>
+        <br>
+        <hr>
+        <button class="pageButton" [routerLink]="['Contactus']">Contact</button> 
+        
+        <br>
+        <hr>
+        <button class="pageButton" [routerLink]="['Inventions']">Inventions</button> 
+        
+        
+        </div>   
+        
+     
+        </div>
+    
+
+    
+<!--showing the page which i have clicked-->
+<div>
+    <router-outlet></router-outlet>
+</div>
